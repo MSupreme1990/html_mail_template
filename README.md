@@ -1,2 +1,2 @@
-# uma-boilerplate
+# html письмо для bookscriptor
 
