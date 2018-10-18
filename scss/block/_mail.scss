@@ -1,0 +1,120 @@
+.b-mail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+
+  &__content {
+    width: 600px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-top: 32px;
+  }
+
+  &__heading {
+    font-family: TrebuchetMS;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+  }
+
+  &__text {
+    font-family: OpenSans;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 32px;
+
+    &_bold {
+      font-weight: bold;
+    }
+  }
+
+  &__btn-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+  }
+
+  //&__btn {
+  //  font-family: OpenSans;
+  //  font-size: 16px;
+  //  width: 238px;
+  //  height: 48px;
+  //  border-radius: 2px;
+  //  background-color: #7ccb26;
+  //  color: #fff;
+  //  text-transform: uppercase;
+  //  line-height: 1.38;
+  //  cursor: pointer;
+  //}
+
+  &__divider {
+    display: block;
+    width: 452px;
+    height: 2px;
+    opacity: 0.1;
+    background-color: #000;
+    margin-top: 48px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  &__items {
+    display: flex;
+    margin-top: 52px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 32px;
+  }
+
+  &__item-text {
+    opacity: 0.65;
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-top: 8px;
+  }
+
+  &__footer-text {
+    width: 520px;
+    height: 66px;
+    text-align: center;
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 54px;
+    margin-bottom: 62px;
+  }
+
+  &__sign {
+    opacity: 0.3;
+    font-family: OpenSans;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-top: 24px;
+  }
+
+  &__footer-logo {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+}

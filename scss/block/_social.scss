@@ -1,0 +1,10 @@
+.b-social {
+  display: flex;
+
+  &__link {
+    margin-right: 12px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
